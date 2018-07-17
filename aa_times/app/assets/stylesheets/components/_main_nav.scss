@@ -1,0 +1,38 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  font-family: 'Arial';
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.right-nav > ul > li {
+
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-gray;
+}
+
+.left-nav span {
+  margin: 20px;
+}
+
+.right-nav i {
+  font-size: 20px;
+}
